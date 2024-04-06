@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .leftside{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    color: whitesmoke;
+}
+
+.leftside .photo img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+.nameanddesignation h2{
+    color: #fff;
+	font-size: 26px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 1.4en;
+}
+.nameanddesignation h2 span{
+    font-size: 15px;
+	font-weight: 300;
+}
+
+.contactinformation{
+    padding-top: 40px;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	margin-bottom: 20px;
+}
+
+.contactinformation h2{
+    text-transform: uppercase;
+}
+
+.contactinformation ul{
+    position: relative;
+}
+
+.contactinformation ul li{
+    position: relative;
+	list-style: none;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.contactinformation ul li .icon{
+    display: inline-block;
+	width: 30px;
+	font-size: 18px;
+	color: #03a9f4
+}
+
+.contactinformation ul li span{
+    font-weight: 300;
+}
+
+.educationinformation h2 ul li{
+    margin-bottom: 20px;
+}
+
+.educationinformation{
+    padding-top: 40px;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	margin-bottom: 20px;
+}
+
+.educationinformation ul li h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.educationinformation li h4:nth-child(2){
+    color: #fff;
+	font-weight: 600;
+}
+
+.educationinformation li h4{
+    color: #fff;
+	font-weight: 300;
+}
+
+.languageinformation{
+    margin-top: 20px;
+}
+
+.languageinformation{
+    padding-top: 40px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+.container .rightside{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+
+.profilesection{
+    margin-bottom: 30px;
+}
+
+.title{
+    color: #003147;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+p{
+    color: #333;
+}
+
+.box{
+    margin-bottom: 20px;
+}
